@@ -5,3 +5,7 @@
 .webpack {
   background: url(../img/webpack.png) no-repeat center;
 }
+
+body {
+  background-color: red;
+}

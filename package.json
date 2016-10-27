@@ -3,17 +3,16 @@
   "description": "Frontend engineering solution based on webpack.",
   "version": "0.1.0",
   "scripts": {
-    "start-dev": "node server/app",
+    "dev": "node server/app",
     "build": "gulp",
-    "start-release": "node server/app production",
+    "dist": "node server/app production",
     "deploy": "gulp deploy"
   },
   "localServer": {
     "port": 3010
   },
-  "dependencies": {},
   "devDependencies": {
-    "lodash": "^3.10.1",
+    "lodash": "^3.10.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "babel-core": "^6.1.21",
@@ -45,7 +44,6 @@
     "koa-router": "^5.1.2",
     "koa-static": "^1.4.9",
     "koa-webpack-dev-middleware": "^1.0.1",
-    "lodash": "^3.10.0",
     "node-libs-browser": "^0.5.2",
     "node-sass": "^3.8.0",
     "open": "0.0.5",
@@ -54,7 +52,9 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1",
-    "webpack-hot-middleware": "^2.10.0"
+    "webpack-hot-middleware": "^2.10.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3"
   },
   "licence": "MIT"
 }

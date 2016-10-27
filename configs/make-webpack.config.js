@@ -167,6 +167,7 @@ module.exports = (options) => {
                 {test: /\.(tpl|ejs)$/, loader: 'ejs'},
                 {test: /\.css$/, loader: cssLoader},
                 {test: /\.scss$/, loader: sassLoader},
+                {test: /\.less$/, loader: 'style-loader!css-loader!less-loader'},
                 {test: /\.jsx?$/, loader: 'babel?presets[]=react,presets[]=es2015'}
             ]
         },
