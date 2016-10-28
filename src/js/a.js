@@ -1,4 +1,7 @@
+import '../less/a.less';
+import { hello } from './common/hello.js';
+import { alert } from './common/alert.js';
 
-require('../less/a.less');
-
-console.log('here');
+hello();
+alert();
+// require('../less/a.less');

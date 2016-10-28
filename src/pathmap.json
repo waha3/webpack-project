@@ -1,9 +1,0 @@
-{
-    "zepto": "js/lib/zepto",
-
-    "reactStuff": "dll/js/reactStuff",
-
-    "commonCss": "css/common.css",
-
-    "webpackLogo": "img/webpack.png"
-}

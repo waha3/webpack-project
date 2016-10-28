@@ -32,7 +32,7 @@ gulp.task('hint', () => {
 })
 
 // clean assets
-gulp.task('clean', ['hint'], () => {
+gulp.task('clean', () => {
     let clean = require('gulp-clean')
 
     return gulp.src(assets, {read: true}).pipe(clean())

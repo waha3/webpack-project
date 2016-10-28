@@ -24,7 +24,7 @@ const DefinePlugin = webpack.DefinePlugin
 const srcDir = path.resolve(process.cwd(), 'src')
 const assets = path.resolve(process.cwd(), 'assets')
 const nodeModPath = path.resolve(__dirname, '../node_modules')
-const pathMap = require('../src/pathmap.json')
+const pathMap = require('../src/path.json');
 
 let entries = (() => {
     let jsDir = path.resolve(srcDir, 'js')

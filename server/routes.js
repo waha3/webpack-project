@@ -12,7 +12,7 @@ const fs = require('fs');
 const render = require('koa-ejs');
 const proxy = require('koa-proxy');
 
-const list = require('../mock/list');
+// const list = require('../mock/list');
 
 module.exports = (router, app, staticDir) => {
     // mock api
